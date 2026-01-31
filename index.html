@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayabonga Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <header class="container">
+        <img src="logo.png" class="logo">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="theme-toggle" id="themeToggle">
+            <i class="fa-solid fa-sun"></i>
+        </button>
+    </header>
+    <main>
+        <section class="intro" id="home">
+            <h1>Molweni, I am Ayabonga Mtsotso</h1>
+            <p>A developer who is passionate about building scalable tech for a sustainable tomorrow.
+            </p>
+            <a class="btn"
+                href="https://docs.google.com/document/d/1uYlong_n_Ir7i-sOxUb2A2Bhnrt1FWmk/edit?userstoinvite=kenneth%40codespace.co.za&sharingaction=manageaccess&role=reader"
+                target="_blank">Download CV</a>
+        </section>
+        <section class="about" id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate Salesforce Admin transitioning into a Developer role,<br>
+                aiming to become a Solution
+                Architect.<br>
+                I blend admin expertise with HTML, CSS, JavaScript,<br>
+                and growing development skills to build
+                scalable solutions and improve user experiences.</p>
+        </section>
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="skill-cards">
+                <div class="skill-card">
+                    <i class="devicon-html5-plain colored"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-css3-plain colored"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-react-plain colored"></i>
+                    <p>React</p>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-salesforce-plain colored"></i>
+                    <p>Salesforce</p>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <h2>My Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3><a href="https://github.com/Afika-M/AYAMTS25155_PTO2503_A_Ayabonga-Mtsotso_JSLPP"
+                            target="_blank">Kanban App</a></h3>
+                    <p>A responsive Kanban-style task management app built with HTML, CSS, and modular JavaScript (ES6
+                        modules).
+                        The app supports task creation, editing, deletion, persistence with localStorage, and fetches
+                        initial tasks dynamically from an API.
+                        It includes a sidebar toggle, mobile menu, and dark/light theme switcher..</p>
+                </div>
+                <div class="project-item">
+                    <h3><a href="https://github.com/Afika-M/AYAMTS25155_PTO2503_A_Ayabonga-Mtsotso_DJS03"
+                            target="_blank">🎙️ Podcast App</a></h3>
+                    <p>A responsive React application that fetches and displays podcast previews from a public API.</p>
+                </div>
+                <div class="project-item">
+                    <h3><a href="https://github.com/Afika-M/AYAMTS25155_PTO2503_B_AyabongaMtsotso_SDF_Portfolio_Piece"
+                            target="_blank">Resume Website</a></h3>
+                    <p>A responsive, single-page resume website built with HTML, CSS, and Devicon to showcase my skills,
+                        projects, education, and work experience as a transitioning Salesforce Admin and aspiring
+                        Develope</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-icons">
+            <a href="https://www.linkedin.com/in/ayabongamtsotso1/" target="_blank" class="icon-bubble">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://www.salesforce.com/trailblazer/amtsotso" target="_blank" class="icon-bubble">
+                <i class="fa-brands fa-salesforce"></i>
+            </a>
+
+            <a href="https://github.com/Afika-M" target="_blank" class="icon-bubble">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+        <p>&copy; 2025 Ayabonga Mtsotso. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
